@@ -36,7 +36,6 @@ class Owner
 
   def dogs
     Dog.all.select { |dog| dog.owner == self }
-    binding.pry
   end
 
   # TODO FIXME
@@ -52,6 +51,8 @@ class Owner
 
   def walk_dogs
     #self.dogs.mood = "happy"
+    test = self.dogs
+    binding.pry
   end
 
 end
