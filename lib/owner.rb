@@ -44,7 +44,7 @@ class Owner
 
   # TODO FIXME
   def buy_dog(dog_name)
-    
+
   end
 
   def walk_dogs
