@@ -41,6 +41,7 @@ class Owner
   # TODO FIXME
   def buy_cat(cat_name)
     Cat.new(cat_name,self.name)
+    binding.pry
   end
 
   # TODO FIXME
