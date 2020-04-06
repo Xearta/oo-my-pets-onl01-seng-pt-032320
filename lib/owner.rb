@@ -33,7 +33,7 @@ class Owner
   end
 
   def dogs
-    
+
   end
 
 end
