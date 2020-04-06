@@ -61,3 +61,8 @@ class Owner
   end
 
 end
+
+
+a = Owner.new("Tester")
+a.buy_cat("Kitty")
+binding.pry
