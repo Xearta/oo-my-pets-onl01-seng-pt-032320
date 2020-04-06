@@ -39,12 +39,12 @@ class Owner
   end
 
   def buy_cat(cat_name)
-    the_cat = Cat.new(cat_name,self)
+    Cat.new(cat_name,self)
   end
 
   # TODO FIXME
   def buy_dog(dog_name)
-
+    
   end
 
   def walk_dogs
