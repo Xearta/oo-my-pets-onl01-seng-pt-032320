@@ -36,9 +36,19 @@ class Owner
     Dog.all.select { |dog| dog.owner == self }
   end
 
+  # TODO FIXME
   def buy_cat(cat_name)
     the_cat = Cat.new(cat_name,self.name)
-    @@all << the_cat
+    
+  end
+
+  # TODO FIXME
+  def buy_dog(dog_name)
+
+  end
+
+  def walk_dogs
+    self.dogs.mood = "happy"
   end
 
 end
