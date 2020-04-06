@@ -39,7 +39,8 @@ class Owner
   end
 
   def buy_cat(cat_name)
-    Cat.new(cat_name,self.name)
+    the_cat = Cat.new(cat_name,self.name)
+    
   end
 
   # TODO FIXME
@@ -60,3 +61,5 @@ class Owner
   end
 
 end
+
+
