@@ -1,3 +1,5 @@
+require 'pry'
+
 class Owner
   attr_reader :name, :species
   @@all = []
@@ -34,6 +36,7 @@ class Owner
 
   def dogs
     Dog.all.select { |dog| dog.owner == self }
+    binding.pry
   end
 
   # TODO FIXME
@@ -48,7 +51,7 @@ class Owner
   end
 
   def walk_dogs
-    self.dogs.mood = "happy"
+    #self.dogs.mood = "happy"
   end
 
 end
