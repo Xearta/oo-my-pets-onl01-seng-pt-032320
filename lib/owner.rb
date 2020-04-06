@@ -50,9 +50,9 @@ class Owner
   end
 
   def walk_dogs
-    #self.dogs.mood = "happy"
-    test = self.dogs
-    binding.pry
+    Dog.all.select do |dog|
+      binding.pry
+    end
   end
 
 end
