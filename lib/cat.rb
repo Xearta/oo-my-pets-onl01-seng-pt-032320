@@ -8,7 +8,6 @@ class Cat
     @owner = owner
     @mood = "nervous"
     save
-    binding.pry
   end
 
   def save
