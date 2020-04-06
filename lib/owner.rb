@@ -1,13 +1,12 @@
 require 'pry'
 
 class Owner
-  attr_reader :name, :species, :cats, :dogs
+  attr_reader :name, :species
   @@all = []
 
   def initialize(name)
     @name = name
     @species = "human"
-    @cats = []
     save
   end
 
@@ -41,7 +40,6 @@ class Owner
 
   def buy_cat(cat_name)
     the_cat = Cat.new(cat_name,self.name)
-    @cats << the_cat
   end
 
   # TODO FIXME
