@@ -40,6 +40,7 @@ class Owner
 
   def buy_cat(cat_name)
     Cat.new(cat_name,self.name)
+    puts "test"
   end
 
   # TODO FIXME
