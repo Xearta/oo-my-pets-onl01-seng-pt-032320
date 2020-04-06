@@ -40,7 +40,7 @@ class Owner
 
   def buy_cat(cat_name)
     the_cat = Cat.new(cat_name,self.name)
-
+    
   end
 
   # TODO FIXME
@@ -68,6 +68,7 @@ class Owner
   end
 
   def list_pets
+    binding.pry
     "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
   end
 
