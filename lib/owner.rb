@@ -40,7 +40,7 @@ class Owner
 
   def buy_cat(cat_name)
     the_cat = Cat.new(cat_name,self.name)
-    puts "the_cat + #{self.cats}"
+    puts "the_cat | #{self.cats}"
     puts "#{self} | #{self.name}"
   end
 
